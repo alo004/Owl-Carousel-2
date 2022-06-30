@@ -1,0 +1,63 @@
+$('.One').owlCarousel({
+    loop:true,
+    margin:5,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    dots:true,
+
+    nav:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+$('.Two').owlCarousel({
+    loop:true,
+    margin:5,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    dots:false,
+
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+$('.Three').owlCarousel({
+    loop:true,
+    margin:5,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    dots:true,
+
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+})
